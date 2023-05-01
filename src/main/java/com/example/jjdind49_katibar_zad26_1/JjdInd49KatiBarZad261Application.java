@@ -8,6 +8,7 @@ public class JjdInd49KatiBarZad261Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JjdInd49KatiBarZad261Application.class, args);
+
 	}
 
 }
