@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+  <meta charset="UTF-8">
+  <title>PrzePycha</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+
+<div th:fragment="header">
+
+  <div class="header">
+    <div class="header-text">
+      <a href="/">
+        <h2>PrzePycha</h2>
+        <p>Twoja aplikacja do zarządzania przepisami kucharskimi</p>
+      </a>
+    </div>
+
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="flex-sm-fill text-sm-center nav-link" href="/">Strona główna</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="/add">Dodaj przepis</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="/edit">Edytuj przepis</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="/showRecipe">Wyświetl przepisy</a>
+    </nav>
+
+  </div>
+</div>
+<footer th:fragment="footer">
+  <p class="footer">PrzePycha - all rights reserved</p>
+</footer>
+
+</body>
+</html>
